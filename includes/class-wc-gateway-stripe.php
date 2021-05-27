@@ -1300,4 +1300,13 @@ class WC_Gateway_Stripe extends WC_Stripe_Payment_Gateway {
 			'https://dashboard.stripe.com/register'
 		);
 	}
+
+	/**
+	 * Determine if the gateway still requires setup.
+	 *
+	 * @return bool
+	 */
+	public function needs_setup() {
+		return ! $this->publishable_key || ! $this->secret_key;
+	}
 }
