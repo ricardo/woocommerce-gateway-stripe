@@ -1310,7 +1310,7 @@ class WC_Gateway_Stripe extends WC_Stripe_Payment_Gateway {
 	 * @return bool
 	 */
 	public function needs_setup() {
-		return ! $this->publishable_key || ! $this->secret_key;
+		return ! $this->get_option( 'publishable_key' ) || ! $this->get_option( 'secret_key' );
 	}
 
 	/**
