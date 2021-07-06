@@ -1,4 +1,4 @@
-=== WooCommerce Stripe Payment Gateway ===
+=== WooCommerce Stripe Payment Gateway 2 ===
 Contributors: woocommerce, automattic, royho, akeda, mattyza, bor0, woothemes
 Tags: credit card, stripe, apple pay, payment request, google pay, sepa, sofort, bancontact, alipay, giropay, ideal, p24, woocommerce, automattic
 Requires at least: 4.4
